@@ -1,0 +1,2663 @@
+{
+	"entries" : 
+	[
+		{
+			"name" : "CMAKE_ADDR2LINE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/addr2line"
+		},
+		{
+			"name" : "CMAKE_AR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/ar"
+		},
+		{
+			"name" : "CMAKE_BUILD_TYPE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Choose the type of build, options are: None Debug Release RelWithDebInfo MinSizeRel ..."
+				}
+			],
+			"type" : "STRING",
+			"value" : "Debug"
+		},
+		{
+			"name" : "CMAKE_CACHEFILE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "This is the directory where this CMakeCache.txt was created"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/home/kingtous/projects/cli_test/linux/cmake-build-debug"
+		},
+		{
+			"name" : "CMAKE_CACHE_MAJOR_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Major version of cmake used to create the current loaded cache"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "3"
+		},
+		{
+			"name" : "CMAKE_CACHE_MINOR_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Minor version of cmake used to create the current loaded cache"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "21"
+		},
+		{
+			"name" : "CMAKE_CACHE_PATCH_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Patch version of cmake used to create the current loaded cache"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_COMMAND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to CMake executable."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/home/kingtous/IDE/clion/bin/cmake/linux/bin/cmake"
+		},
+		{
+			"name" : "CMAKE_CPACK_COMMAND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to cpack program executable."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/home/kingtous/IDE/clion/bin/cmake/linux/bin/cpack"
+		},
+		{
+			"name" : "CMAKE_CTEST_COMMAND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to ctest program executable."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/home/kingtous/IDE/clion/bin/cmake/linux/bin/ctest"
+		},
+		{
+			"name" : "CMAKE_CXX_COMPILER",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "CXX compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/c++"
+		},
+		{
+			"name" : "CMAKE_CXX_COMPILER_AR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/gcc-ar"
+		},
+		{
+			"name" : "CMAKE_CXX_COMPILER_RANLIB",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/gcc-ranlib"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the CXX compiler during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the CXX compiler during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-g"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the CXX compiler during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-Os -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the CXX compiler during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-O3 -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the CXX compiler during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-O2 -g -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_DLLTOOL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "CMAKE_DLLTOOL-NOTFOUND"
+		},
+		{
+			"name" : "CMAKE_EXECUTABLE_FORMAT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Executable file format"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "ELF"
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXPORT_COMPILE_COMMANDS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable/Disable output of compile commands during generation."
+				}
+			],
+			"type" : "BOOL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXTRA_GENERATOR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of external makefile project generator."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_GENERATOR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of generator."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "Ninja"
+		},
+		{
+			"name" : "CMAKE_GENERATOR_INSTANCE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Generator instance identifier."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_GENERATOR_PLATFORM",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of generator platform."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_GENERATOR_TOOLSET",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of generator toolset."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_HOME_DIRECTORY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Source directory with the top level CMakeLists.txt file for this project"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/home/kingtous/projects/cli_test/linux"
+		},
+		{
+			"name" : "CMAKE_INSTALL_PREFIX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "..."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/kingtous/projects/cli_test/linux/cmake-build-debug/bundle"
+		},
+		{
+			"name" : "CMAKE_INSTALL_SO_NO_EXE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Install .so files without execute permission."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "0"
+		},
+		{
+			"name" : "CMAKE_LINKER",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/ld"
+		},
+		{
+			"name" : "CMAKE_MAKE_PROGRAM",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "No help, variable specified on the command line."
+				}
+			],
+			"type" : "UNINITIALIZED",
+			"value" : "/home/kingtous/IDE/clion/bin/ninja/linux/ninja"
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_NM",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/nm"
+		},
+		{
+			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "number of local generators"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "2"
+		},
+		{
+			"name" : "CMAKE_OBJCOPY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/objcopy"
+		},
+		{
+			"name" : "CMAKE_OBJDUMP",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/objdump"
+		},
+		{
+			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Platform information initialized"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_PROJECT_DESCRIPTION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_PROJECT_HOMEPAGE_URL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_PROJECT_NAME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "runner"
+		},
+		{
+			"name" : "CMAKE_RANLIB",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/ranlib"
+		},
+		{
+			"name" : "CMAKE_READELF",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/readelf"
+		},
+		{
+			"name" : "CMAKE_ROOT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to CMake installation."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/home/kingtous/IDE/clion/bin/cmake/linux/share/cmake-3.21"
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_SKIP_INSTALL_RPATH",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "If set, runtime paths are not added when installing shared libraries, but are added when building."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "NO"
+		},
+		{
+			"name" : "CMAKE_SKIP_RPATH",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "If set, runtime paths are not added when using shared libraries."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "NO"
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STRIP",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/strip"
+		},
+		{
+			"name" : "CMAKE_UNAME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "uname command"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/bin/uname"
+		},
+		{
+			"name" : "CMAKE_VERBOSE_MAKEFILE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "If this value is on, makefiles will be generated without the .SILENT directive, and all commands will be echoed to the console during the make.  This is useful for debugging only. With Visual Studio IDE projects all commands are done without /nologo."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "FALSE"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding PkgConfig"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/usr/bin/pkg-config][v1.8.0()]"
+		},
+		{
+			"name" : "GIO_CFLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-I/usr/include/glib-2.0;-I/usr/lib/glib-2.0/include;-I/usr/include/sysprof-4;-I/usr/include/libmount;-I/usr/include/blkid;-pthread"
+		},
+		{
+			"name" : "GIO_CFLAGS_I",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GIO_CFLAGS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-pthread"
+		},
+		{
+			"name" : "GIO_FOUND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "GIO_INCLUDEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/include"
+		},
+		{
+			"name" : "GIO_INCLUDE_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/include/glib-2.0;/usr/lib/glib-2.0/include;/usr/include/sysprof-4;/usr/include/libmount;/usr/include/blkid"
+		},
+		{
+			"name" : "GIO_LDFLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-lgio-2.0;-lgobject-2.0;-lglib-2.0"
+		},
+		{
+			"name" : "GIO_LDFLAGS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GIO_LIBDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/lib"
+		},
+		{
+			"name" : "GIO_LIBRARIES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "gio-2.0;gobject-2.0;glib-2.0"
+		},
+		{
+			"name" : "GIO_LIBRARY_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GIO_LIBS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GIO_LIBS_L",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GIO_LIBS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GIO_LIBS_PATHS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GIO_MODULE_NAME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "gio-2.0"
+		},
+		{
+			"name" : "GIO_PREFIX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr"
+		},
+		{
+			"name" : "GIO_STATIC_CFLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-I/usr/include/glib-2.0;-I/usr/lib/glib-2.0/include;-I/usr/include/sysprof-4;-I/usr/include/libmount;-I/usr/include/blkid;-pthread"
+		},
+		{
+			"name" : "GIO_STATIC_CFLAGS_I",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GIO_STATIC_CFLAGS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-pthread"
+		},
+		{
+			"name" : "GIO_STATIC_INCLUDE_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/include/glib-2.0;/usr/lib/glib-2.0/include;/usr/include/sysprof-4;/usr/include/libmount;/usr/include/blkid"
+		},
+		{
+			"name" : "GIO_STATIC_LDFLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-lgio-2.0;-pthread;-lm;-lpcre;-pthread;-lgobject-2.0;-lglib-2.0;-pthread;-lm;-lpcre;-pthread;-lffi;-lgmodule-2.0;-pthread;-lglib-2.0;-pthread;-lm;-lpcre;-lz;-lmount;-lblkid;-lsysprof-capture-4;-pthread"
+		},
+		{
+			"name" : "GIO_STATIC_LDFLAGS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread"
+		},
+		{
+			"name" : "GIO_STATIC_LIBDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GIO_STATIC_LIBRARIES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "gio-2.0;m;pcre;gobject-2.0;glib-2.0;m;pcre;ffi;gmodule-2.0;glib-2.0;m;pcre;z;mount;blkid;sysprof-capture-4"
+		},
+		{
+			"name" : "GIO_STATIC_LIBRARY_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GIO_STATIC_LIBS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GIO_STATIC_LIBS_L",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GIO_STATIC_LIBS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GIO_STATIC_LIBS_PATHS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GIO_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "2.72.1"
+		},
+		{
+			"name" : "GIO_gio-2.0_INCLUDEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GIO_gio-2.0_LIBDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GIO_gio-2.0_PREFIX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GIO_gio-2.0_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GLIB_CFLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-I/usr/include/glib-2.0;-I/usr/lib/glib-2.0/include;-I/usr/include/sysprof-4;-pthread"
+		},
+		{
+			"name" : "GLIB_CFLAGS_I",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GLIB_CFLAGS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-pthread"
+		},
+		{
+			"name" : "GLIB_FOUND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "GLIB_INCLUDEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/include"
+		},
+		{
+			"name" : "GLIB_INCLUDE_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/include/glib-2.0;/usr/lib/glib-2.0/include;/usr/include/sysprof-4"
+		},
+		{
+			"name" : "GLIB_LDFLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-lglib-2.0"
+		},
+		{
+			"name" : "GLIB_LDFLAGS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GLIB_LIBDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/lib"
+		},
+		{
+			"name" : "GLIB_LIBRARIES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "glib-2.0"
+		},
+		{
+			"name" : "GLIB_LIBRARY_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GLIB_LIBS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GLIB_LIBS_L",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GLIB_LIBS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GLIB_LIBS_PATHS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GLIB_MODULE_NAME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "glib-2.0"
+		},
+		{
+			"name" : "GLIB_PREFIX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr"
+		},
+		{
+			"name" : "GLIB_STATIC_CFLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-I/usr/include/glib-2.0;-I/usr/lib/glib-2.0/include;-I/usr/include/sysprof-4;-pthread"
+		},
+		{
+			"name" : "GLIB_STATIC_CFLAGS_I",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GLIB_STATIC_CFLAGS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-pthread"
+		},
+		{
+			"name" : "GLIB_STATIC_INCLUDE_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/include/glib-2.0;/usr/lib/glib-2.0/include;/usr/include/sysprof-4"
+		},
+		{
+			"name" : "GLIB_STATIC_LDFLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-lglib-2.0;-pthread;-lm;-lpcre;-lsysprof-capture-4;-pthread"
+		},
+		{
+			"name" : "GLIB_STATIC_LDFLAGS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-pthread;-pthread"
+		},
+		{
+			"name" : "GLIB_STATIC_LIBDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GLIB_STATIC_LIBRARIES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "glib-2.0;m;pcre;sysprof-capture-4"
+		},
+		{
+			"name" : "GLIB_STATIC_LIBRARY_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GLIB_STATIC_LIBS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GLIB_STATIC_LIBS_L",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GLIB_STATIC_LIBS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GLIB_STATIC_LIBS_PATHS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GLIB_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "2.72.1"
+		},
+		{
+			"name" : "GLIB_glib-2.0_INCLUDEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GLIB_glib-2.0_LIBDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GLIB_glib-2.0_PREFIX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GLIB_glib-2.0_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GTK_CFLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-I/usr/include/gtk-3.0;-I/usr/include/pango-1.0;-I/usr/include/glib-2.0;-I/usr/lib/glib-2.0/include;-I/usr/include/sysprof-4;-I/usr/include/harfbuzz;-I/usr/include/freetype2;-I/usr/include/libpng16;-I/usr/include/libmount;-I/usr/include/blkid;-I/usr/include/fribidi;-I/usr/include/cairo;-I/usr/include/lzo;-I/usr/include/pixman-1;-I/usr/include/gdk-pixbuf-2.0;-I/usr/include/gio-unix-2.0;-I/usr/include/cloudproviders;-I/usr/include/atk-1.0;-I/usr/include/at-spi2-atk/2.0;-I/usr/include/dbus-1.0;-I/usr/lib/dbus-1.0/include;-I/usr/include/at-spi-2.0;-pthread"
+		},
+		{
+			"name" : "GTK_CFLAGS_I",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GTK_CFLAGS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-pthread"
+		},
+		{
+			"name" : "GTK_FOUND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "GTK_INCLUDEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/include"
+		},
+		{
+			"name" : "GTK_INCLUDE_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/include/gtk-3.0;/usr/include/pango-1.0;/usr/include/glib-2.0;/usr/lib/glib-2.0/include;/usr/include/sysprof-4;/usr/include/harfbuzz;/usr/include/freetype2;/usr/include/libpng16;/usr/include/libmount;/usr/include/blkid;/usr/include/fribidi;/usr/include/cairo;/usr/include/lzo;/usr/include/pixman-1;/usr/include/gdk-pixbuf-2.0;/usr/include/gio-unix-2.0;/usr/include/cloudproviders;/usr/include/atk-1.0;/usr/include/at-spi2-atk/2.0;/usr/include/dbus-1.0;/usr/lib/dbus-1.0/include;/usr/include/at-spi-2.0"
+		},
+		{
+			"name" : "GTK_LDFLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-lgtk-3;-lgdk-3;-lz;-lpangocairo-1.0;-lpango-1.0;-lharfbuzz;-latk-1.0;-lcairo-gobject;-lcairo;-lgdk_pixbuf-2.0;-lgio-2.0;-lgobject-2.0;-lglib-2.0"
+		},
+		{
+			"name" : "GTK_LDFLAGS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GTK_LIBDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/lib"
+		},
+		{
+			"name" : "GTK_LIBRARIES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "gtk-3;gdk-3;z;pangocairo-1.0;pango-1.0;harfbuzz;atk-1.0;cairo-gobject;cairo;gdk_pixbuf-2.0;gio-2.0;gobject-2.0;glib-2.0"
+		},
+		{
+			"name" : "GTK_LIBRARY_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GTK_LIBS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GTK_LIBS_L",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GTK_LIBS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GTK_LIBS_PATHS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GTK_MODULE_NAME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "gtk+-3.0"
+		},
+		{
+			"name" : "GTK_PREFIX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr"
+		},
+		{
+			"name" : "GTK_STATIC_CFLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-I/usr/include/gtk-3.0;-I/usr/include/pango-1.0;-I/usr/include/glib-2.0;-I/usr/lib/glib-2.0/include;-I/usr/include/sysprof-4;-I/usr/include/harfbuzz;-I/usr/include/freetype2;-I/usr/include/libpng16;-I/usr/include/libmount;-I/usr/include/blkid;-I/usr/include/fribidi;-I/usr/include/cairo;-I/usr/include/lzo;-I/usr/include/pixman-1;-I/usr/include/gdk-pixbuf-2.0;-I/usr/include/gio-unix-2.0;-I/usr/include/cloudproviders;-I/usr/include/atk-1.0;-I/usr/include/at-spi2-atk/2.0;-I/usr/include/dbus-1.0;-I/usr/lib/dbus-1.0/include;-I/usr/include/at-spi-2.0;-pthread"
+		},
+		{
+			"name" : "GTK_STATIC_CFLAGS_I",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GTK_STATIC_CFLAGS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-pthread"
+		},
+		{
+			"name" : "GTK_STATIC_INCLUDE_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/include/gtk-3.0;/usr/include/pango-1.0;/usr/include/glib-2.0;/usr/lib/glib-2.0/include;/usr/include/sysprof-4;/usr/include/harfbuzz;/usr/include/freetype2;/usr/include/libpng16;/usr/include/libmount;/usr/include/blkid;/usr/include/fribidi;/usr/include/cairo;/usr/include/lzo;/usr/include/pixman-1;/usr/include/gdk-pixbuf-2.0;/usr/include/gio-unix-2.0;/usr/include/cloudproviders;/usr/include/atk-1.0;/usr/include/at-spi2-atk/2.0;/usr/include/dbus-1.0;/usr/lib/dbus-1.0/include;/usr/include/at-spi-2.0"
+		},
+		{
+			"name" : "GTK_STATIC_LDFLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-lgtk-3;-lgdk-3;-lz;-lm;-pthread;-lm;-lpcre;-pthread;-lffi;-pthread;-lm;-lbz2;-lz;-lm;-lm;-lbrotlicommon;-lgraphite2;-lglib-2.0;-pthread;-lm;-lpcre;-pthread;-pthread;-lm;-lpcre;-pthread;-lgio-2.0;-pthread;-lm;-lpcre;-pthread;-lgobject-2.0;-lglib-2.0;-pthread;-lm;-lpcre;-pthread;-lffi;-lgmodule-2.0;-pthread;-pthread;-lm;-lpcre;-lz;-lblkid;-pthread;-lfribidi;-ldatrie;-pthread;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lexpat;-lm;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lXrender;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lxcb;-lXau;-pthread;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lexpat;-lm;-lbz2;-lz;-lm;-lm;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lm;-ldl;-llzo2;-lz;-lm;-lm;-lz;-pthread;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lexpat;-lm;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lXau;-lxcb;-lXau;-lxcb;-lXau;-lxcb;-lXau;-lm;-pthread;-lpangocairo-1.0;-lm;-lpango-1.0;-lm;-pthread;-lm;-lpcre;-pthread;-lffi;-pthread;-lm;-lbz2;-lz;-lm;-lm;-lbrotlicommon;-lgraphite2;-lglib-2.0;-pthread;-lm;-lpcre;-pthread;-pthread;-lm;-lpcre;-pthread;-lgio-2.0;-pthread;-lm;-lpcre;-pthread;-lgobject-2.0;-lglib-2.0;-pthread;-lm;-lpcre;-pthread;-lffi;-lgmodule-2.0;-pthread;-pthread;-lm;-lpcre;-lz;-lblkid;-pthread;-lfribidi;-ldatrie;-pthread;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lexpat;-lm;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lXrender;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lxcb;-lXau;-pthread;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lexpat;-lm;-lbz2;-lz;-lm;-lm;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lm;-ldl;-llzo2;-lz;-lm;-lm;-lz;-pthread;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lexpat;-lm;-lbz2;-lz;-lm;-lm;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lXau;-lxcb;-lXau;-lxcb;-lXau;-lxcb;-lXau;-lm;-pthread;-lcairo;-lm;-ldl;-llzo2;-lz;-lm;-lm;-lz;-pthread;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lexpat;-lm;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lglib-2.0;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lXau;-lxcb;-lXau;-lxcb;-lXau;-lxcb;-lXau;-lm;-pthread;-lm;-lm;-pthread;-lm;-lpcre;-pthread;-lffi;-pthread;-lm;-lbz2;-lz;-lm;-lm;-lbrotlicommon;-lgraphite2;-lglib-2.0;-pthread;-lm;-lpcre;-pthread;-pthread;-lm;-lpcre;-pthread;-lgio-2.0;-pthread;-lm;-lpcre;-pthread;-lgobject-2.0;-lglib-2.0;-pthread;-lm;-lpcre;-pthread;-lffi;-lgmodule-2.0;-pthread;-pthread;-lm;-lpcre;-lz;-lblkid;-pthread;-lfribidi;-ldatrie;-pthread;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lexpat;-lm;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lXrender;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lxcb;-lXau;-pthread;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lexpat;-lm;-lbz2;-lz;-lm;-lm;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lm;-ldl;-llzo2;-lz;-lm;-lm;-lz;-pthread;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lexpat;-lm;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lXau;-lxcb;-lXau;-lxcb;-lXau;-lxcb;-lXau;-lm;-pthread;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-pthread;-lfreetype;-lbz2;-lz;-lm;-lm;-pthread;-lm;-lglib-2.0;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lexpat;-lm;-pthread;-lm;-lpcre;-pthread;-lgobject-2.0;-pthread;-lm;-lpcre;-pthread;-lffi;-pthread;-lm;-lpcre;-pthread;-lgobject-2.0;-lglib-2.0;-pthread;-lm;-lpcre;-pthread;-lffi;-lgmodule-2.0;-pthread;-pthread;-lm;-lpcre;-lz;-lblkid;-pthread;-lfribidi;-ldatrie;-pthread;-lm;-lbz2;-lz;-lm;-lm;-lz;-lbrotlicommon;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lXrender;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lxcb;-lXau;-pthread;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lexpat;-lm;-lbz2;-lz;-lm;-lm;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lm;-ldl;-llzo2;-lz;-lm;-lm;-lz;-pthread;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lexpat;-lm;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lXau;-lxcb;-lXau;-lxcb;-lXau;-lxcb;-lXau;-lm;-pthread;-lharfbuzz-gobject;-pthread;-lm;-lfreetype;-lbz2;-lz;-lm;-lm;-lbrotlicommon;-pthread;-lm;-lpcre;-pthread;-lglib-2.0;-pthread;-lm;-lpcre;-pthread;-lgobject-2.0;-pthread;-lm;-lpcre;-pthread;-lffi;-pthread;-lm;-lpcre;-pthread;-lgobject-2.0;-pthread;-lm;-lpcre;-pthread;-lffi;-pthread;-lm;-lpcre;-pthread;-lgobject-2.0;-lglib-2.0;-pthread;-lm;-lpcre;-pthread;-lffi;-pthread;-pthread;-lm;-lpcre;-lz;-lblkid;-pthread;-lfribidi;-ldatrie;-pthread;-lm;-lbz2;-lz;-lm;-lm;-lz;-lbrotlicommon;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lfontconfig;-pthread;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lexpat;-lm;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lXrender;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lxcb;-lXau;-pthread;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lexpat;-lm;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-pthread;-lm;-lbz2;-lz;-lpng16;-lm;-lm;-lz;-lbrotlicommon;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lglib-2.0;-pthread;-lm;-lpcre;-pthread;-lgobject-2.0;-pthread;-lm;-lpcre;-pthread;-lffi;-lm;-pthread;-lm;-lpcre;-pthread;-lffi;-lm;-lz;-lm;-lz;-ljpeg;-lzstd;-llzma;-ljbig;-lm;-pthread;-lm;-lpcre;-lgmodule-2.0;-pthread;-lglib-2.0;-pthread;-lm;-lpcre;-pthread;-lgio-2.0;-pthread;-lm;-lpcre;-pthread;-lgobject-2.0;-lglib-2.0;-pthread;-lm;-lpcre;-pthread;-lffi;-lgmodule-2.0;-pthread;-pthread;-lm;-lpcre;-lblkid;-pthread;-lcairo;-lm;-ldl;-llzo2;-lz;-lm;-lm;-lz;-pthread;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lexpat;-lm;-lbz2;-lz;-lm;-lm;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lXau;-lxcb;-lXau;-lxcb;-lXau;-lxcb;-lXau;-lm;-pthread;-lcairo-gobject;-lm;-ldl;-lm;-ldl;-llzo2;-lz;-lm;-lm;-lz;-pthread;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lexpat;-lm;-lbz2;-lz;-lm;-lm;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lXau;-lxcb;-lXau;-lxcb;-lXau;-lxcb;-lXau;-lm;-pthread;-lglib-2.0;-pthread;-lm;-lpcre;-pthread;-lgobject-2.0;-pthread;-lm;-lpcre;-pthread;-lffi;-llzo2;-lz;-lm;-lm;-lz;-pthread;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lexpat;-lm;-lbz2;-lz;-lm;-lm;-pthread;-lm;-lgraphite2;-lglib-2.0;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lXau;-lxcb;-lXau;-lxcb;-lXau;-lxcb;-lXau;-lm;-pthread;-pthread;-lm;-lpcre;-pthread;-lffi;-pthread;-lm;-lpcre;-pthread;-lgobject-2.0;-lglib-2.0;-pthread;-lm;-lpcre;-pthread;-lffi;-pthread;-pthread;-lm;-lpcre;-lz;-lblkid;-pthread;-lfontconfig;-pthread;-lfreetype;-lbz2;-lz;-lm;-lm;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lexpat;-lm;-lX11;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lXrandr;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lXcursor;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lXcomposite;-lX11;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lXdamage;-lX11;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lXinerama;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lxcb;-lXau;-lwayland-client;-lm;-pthread;-lffi;-lm;-pthread;-lffi;-lm;-pthread;-lffi;-lm;-ldl;-llzo2;-lz;-lm;-lm;-lz;-pthread;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lexpat;-lm;-lbz2;-lz;-lm;-lm;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lXau;-lxcb;-lXau;-lxcb;-lXau;-lxcb;-lXau;-lm;-pthread;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lxcb;-lXau;-lm;-ldl;-llzo2;-lz;-lm;-lm;-lz;-pthread;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lexpat;-lm;-lbz2;-lz;-lm;-lm;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lXau;-lxcb;-lXau;-lxcb;-lXau;-lxcb;-lXau;-lm;-pthread;-lepoxy;-ldl;-lpthread;-lxcb;-lXau;-lcloudproviders;-latk-1.0;-pthread;-lm;-lpcre;-pthread;-lgobject-2.0;-pthread;-lm;-lpcre;-pthread;-lffi;-lm;-ldl;-llzo2;-lz;-lm;-lm;-lz;-pthread;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lexpat;-lm;-lbz2;-lz;-lm;-lm;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lXau;-lxcb;-lXau;-lxcb;-lXau;-lxcb;-lXau;-lm;-pthread;-lcairo-gobject;-lm;-ldl;-lm;-ldl;-llzo2;-lz;-lm;-lm;-lz;-pthread;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lexpat;-lm;-lbz2;-lz;-lm;-lm;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lXau;-lxcb;-lXau;-lxcb;-lXau;-lxcb;-lXau;-lm;-pthread;-lglib-2.0;-pthread;-lm;-lpcre;-pthread;-lgobject-2.0;-pthread;-lm;-lpcre;-pthread;-lffi;-llzo2;-lz;-lm;-lm;-lz;-pthread;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lexpat;-lm;-lfreetype;-lbz2;-lz;-lpng16;-lm;-lm;-lz;-pthread;-lm;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lXau;-lxcb;-lXau;-lxcb;-lXau;-lxcb;-lXau;-lm;-pthread;-lgdk_pixbuf-2.0;-lm;-pthread;-lm;-lpcre;-pthread;-lffi;-lm;-lz;-lm;-lz;-ljpeg;-ltiff;-lzstd;-llzma;-ljbig;-ljpeg;-lm;-pthread;-lm;-lpcre;-lgmodule-2.0;-pthread;-lglib-2.0;-pthread;-lm;-lpcre;-pthread;-lgio-2.0;-pthread;-lm;-lpcre;-pthread;-lgobject-2.0;-lglib-2.0;-pthread;-lm;-lpcre;-pthread;-lffi;-lgmodule-2.0;-pthread;-pthread;-lm;-lpcre;-lblkid;-pthread;-lgio-2.0;-pthread;-lm;-lpcre;-pthread;-lgobject-2.0;-lglib-2.0;-pthread;-lm;-lpcre;-pthread;-lffi;-pthread;-lglib-2.0;-pthread;-lm;-lpcre;-lz;-lblkid;-pthread;-pthread;-lm;-lpcre;-pthread;-lgobject-2.0;-pthread;-lm;-lpcre;-pthread;-lffi;-latk-bridge-2.0;-lsystemd;-latspi;-ldbus-1;-lsystemd;-lglib-2.0;-pthread;-lm;-lpcre;-pthread;-pthread;-lm;-lpcre;-pthread;-lffi;-lX11;-lpthread;-lxcb;-lXau;-lXtst;-lX11;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lXi;-lX11;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lXfixes;-lX11;-lpthread;-lxcb;-lXau;-latk-1.0;-pthread;-lm;-lpcre;-pthread;-lgobject-2.0;-pthread;-lm;-lpcre;-pthread;-lffi;-pthread;-lm;-lpcre;-Wl,--export-dynamic;-lgmodule-2.0;-pthread;-lglib-2.0;-pthread;-lm;-lpcre;-pthread;-lglib-2.0;-pthread;-lm;-lpcre;-pthread;-lgobject-2.0;-pthread;-lm;-lpcre;-pthread;-lffi;-lwayland-client;-lm;-pthread;-lffi;-lxkbcommon;-lwayland-cursor;-lm;-pthread;-lffi;-lwayland-egl;-lwayland-client;-lm;-pthread;-lffi;-lepoxy;-ldl;-lpthread;-lxcb;-lXau;-lGL;-lEGL;-lpangoft2-1.0;-lm;-lpango-1.0;-lm;-pthread;-lm;-lpcre;-pthread;-lffi;-pthread;-lm;-lbz2;-lz;-lm;-lm;-lbrotlicommon;-lgraphite2;-lglib-2.0;-pthread;-lm;-lpcre;-pthread;-pthread;-lm;-lpcre;-pthread;-lgio-2.0;-pthread;-lm;-lpcre;-pthread;-lgobject-2.0;-lglib-2.0;-pthread;-lm;-lpcre;-pthread;-lffi;-lgmodule-2.0;-pthread;-pthread;-lm;-lpcre;-lz;-lblkid;-pthread;-lfribidi;-ldatrie;-pthread;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lexpat;-lm;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lXrender;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lxcb;-lXau;-pthread;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lexpat;-lm;-lbz2;-lz;-lm;-lm;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lm;-ldl;-llzo2;-lz;-lm;-lm;-lz;-pthread;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lexpat;-lm;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lXau;-lxcb;-lXau;-lxcb;-lXau;-lxcb;-lXau;-lm;-pthread;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-pthread;-lfreetype;-lbz2;-lz;-lm;-lm;-pthread;-lm;-lglib-2.0;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lexpat;-lm;-pthread;-lm;-lpcre;-pthread;-lgobject-2.0;-pthread;-lm;-lpcre;-pthread;-lffi;-pthread;-lm;-lpcre;-pthread;-lgobject-2.0;-lglib-2.0;-pthread;-lm;-lpcre;-pthread;-lffi;-lgmodule-2.0;-pthread;-pthread;-lm;-lpcre;-lz;-lblkid;-pthread;-lfribidi;-lthai;-ldatrie;-pthread;-lm;-lbz2;-lz;-lm;-lm;-lz;-lbrotlicommon;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lXrender;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lxcb;-lXau;-lXft;-lX11;-lpthread;-lxcb;-lXau;-lpthread;-lxcb;-lXau;-pthread;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lexpat;-lm;-lbz2;-lz;-lm;-lm;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lcairo;-lm;-ldl;-llzo2;-lz;-lm;-lm;-lz;-lfontconfig;-pthread;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lexpat;-lm;-lfreetype;-lbz2;-lz;-lm;-lm;-lz;-pthread;-lm;-pthread;-lm;-lpcre;-pthread;-lbrotlidec;-lbrotlicommon;-lX11;-lpthread;-lxcb;-lXau;-lXext;-lpthread;-lxcb;-lXau;-lXrender;-lX11;-lpthread;-lxcb;-lXau;-lX11;-lpthread;-lXau;-lxcb;-lXau;-lxcb-render;-lxcb;-lXau;-lxcb-shm;-lxcb;-lXau;-lXdmcp;-lpixman-1;-lm;-pthread;-lharfbuzz-gobject;-lharfbuzz;-pthread;-lm;-lfreetype;-lbz2;-lz;-lpng16;-lm;-lm;-lbrotlidec;-lbrotlicommon;-lgraphite2;-pthread;-lm;-lpcre;-pthread;-lglib-2.0;-pthread;-lm;-lpcre;-pthread;-lgobject-2.0;-pthread;-lm;-lpcre;-pthread;-lffi;-pthread;-lm;-lpcre;-pthread;-lffi;-lgio-2.0;-pthread;-lm;-lpcre;-pthread;-lgobject-2.0;-lglib-2.0;-pthread;-lm;-lpcre;-pthread;-lffi;-lgmodule-2.0;-pthread;-lglib-2.0;-pthread;-lm;-lpcre;-lz;-lmount;-lblkid;-lsysprof-capture-4;-pthread"
+		},
+		{
+			"name" : "GTK_STATIC_LDFLAGS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-Wl,--export-dynamic;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread"
+		},
+		{
+			"name" : "GTK_STATIC_LIBDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GTK_STATIC_LIBRARIES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "gtk-3;gdk-3;z;m;m;pcre;ffi;m;bz2;z;m;m;brotlicommon;graphite2;glib-2.0;m;pcre;m;pcre;gio-2.0;m;pcre;gobject-2.0;glib-2.0;m;pcre;ffi;gmodule-2.0;m;pcre;z;blkid;fribidi;datrie;freetype;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;expat;m;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;Xrender;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;freetype;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;expat;m;bz2;z;m;m;m;graphite2;m;pcre;brotlidec;brotlicommon;m;dl;lzo2;z;m;m;z;freetype;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;expat;m;freetype;bz2;z;m;m;z;m;m;pcre;brotlidec;brotlicommon;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;Xau;xcb;Xau;xcb;Xau;xcb;Xau;m;pangocairo-1.0;m;pango-1.0;m;m;pcre;ffi;m;bz2;z;m;m;brotlicommon;graphite2;glib-2.0;m;pcre;m;pcre;gio-2.0;m;pcre;gobject-2.0;glib-2.0;m;pcre;ffi;gmodule-2.0;m;pcre;z;blkid;fribidi;datrie;freetype;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;expat;m;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;Xrender;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;freetype;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;expat;m;bz2;z;m;m;m;graphite2;m;pcre;brotlidec;brotlicommon;m;dl;lzo2;z;m;m;z;freetype;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;expat;m;bz2;z;m;m;m;graphite2;m;pcre;brotlidec;brotlicommon;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;Xau;xcb;Xau;xcb;Xau;xcb;Xau;m;cairo;m;dl;lzo2;z;m;m;z;freetype;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;expat;m;freetype;bz2;z;m;m;z;m;glib-2.0;m;pcre;brotlidec;brotlicommon;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;Xau;xcb;Xau;xcb;Xau;xcb;Xau;m;m;m;m;pcre;ffi;m;bz2;z;m;m;brotlicommon;graphite2;glib-2.0;m;pcre;m;pcre;gio-2.0;m;pcre;gobject-2.0;glib-2.0;m;pcre;ffi;gmodule-2.0;m;pcre;z;blkid;fribidi;datrie;freetype;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;expat;m;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;Xrender;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;freetype;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;expat;m;bz2;z;m;m;m;graphite2;m;pcre;brotlidec;brotlicommon;m;dl;lzo2;z;m;m;z;freetype;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;expat;m;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;Xau;xcb;Xau;xcb;Xau;xcb;Xau;m;freetype;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;freetype;bz2;z;m;m;m;glib-2.0;m;pcre;brotlidec;brotlicommon;expat;m;m;pcre;gobject-2.0;m;pcre;ffi;m;pcre;gobject-2.0;glib-2.0;m;pcre;ffi;gmodule-2.0;m;pcre;z;blkid;fribidi;datrie;m;bz2;z;m;m;z;brotlicommon;graphite2;m;pcre;Xrender;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;freetype;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;expat;m;bz2;z;m;m;m;graphite2;m;pcre;brotlidec;brotlicommon;m;dl;lzo2;z;m;m;z;freetype;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;expat;m;freetype;bz2;z;m;m;z;m;m;pcre;brotlidec;brotlicommon;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;Xau;xcb;Xau;xcb;Xau;xcb;Xau;m;harfbuzz-gobject;m;freetype;bz2;z;m;m;brotlicommon;m;pcre;glib-2.0;m;pcre;gobject-2.0;m;pcre;ffi;m;pcre;gobject-2.0;m;pcre;ffi;m;pcre;gobject-2.0;glib-2.0;m;pcre;ffi;m;pcre;z;blkid;fribidi;datrie;m;bz2;z;m;m;z;brotlicommon;graphite2;m;pcre;fontconfig;freetype;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;expat;m;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;Xrender;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;freetype;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;expat;m;freetype;bz2;z;m;m;z;m;m;pcre;brotlidec;brotlicommon;m;bz2;z;png16;m;m;z;brotlicommon;graphite2;m;pcre;glib-2.0;m;pcre;gobject-2.0;m;pcre;ffi;m;m;pcre;ffi;m;z;m;z;jpeg;zstd;lzma;jbig;m;m;pcre;gmodule-2.0;glib-2.0;m;pcre;gio-2.0;m;pcre;gobject-2.0;glib-2.0;m;pcre;ffi;gmodule-2.0;m;pcre;blkid;cairo;m;dl;lzo2;z;m;m;z;freetype;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;expat;m;bz2;z;m;m;m;graphite2;m;pcre;brotlidec;brotlicommon;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;Xau;xcb;Xau;xcb;Xau;xcb;Xau;m;cairo-gobject;m;dl;m;dl;lzo2;z;m;m;z;freetype;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;expat;m;bz2;z;m;m;m;graphite2;m;pcre;brotlidec;brotlicommon;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;Xau;xcb;Xau;xcb;Xau;xcb;Xau;m;glib-2.0;m;pcre;gobject-2.0;m;pcre;ffi;lzo2;z;m;m;z;freetype;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;expat;m;bz2;z;m;m;m;graphite2;glib-2.0;m;pcre;brotlidec;brotlicommon;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;Xau;xcb;Xau;xcb;Xau;xcb;Xau;m;m;pcre;ffi;m;pcre;gobject-2.0;glib-2.0;m;pcre;ffi;m;pcre;z;blkid;fontconfig;freetype;bz2;z;m;m;m;graphite2;m;pcre;brotlidec;brotlicommon;expat;m;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;Xrandr;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;Xcursor;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;Xcomposite;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;Xdamage;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;Xinerama;X11;pthread;xcb;Xau;pthread;xcb;Xau;wayland-client;m;ffi;m;ffi;m;ffi;m;dl;lzo2;z;m;m;z;freetype;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;expat;m;bz2;z;m;m;m;graphite2;m;pcre;brotlidec;brotlicommon;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;Xau;xcb;Xau;xcb;Xau;xcb;Xau;m;X11;pthread;xcb;Xau;pthread;xcb;Xau;m;dl;lzo2;z;m;m;z;freetype;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;expat;m;bz2;z;m;m;m;graphite2;m;pcre;brotlidec;brotlicommon;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;Xau;xcb;Xau;xcb;Xau;xcb;Xau;m;epoxy;dl;pthread;xcb;Xau;cloudproviders;atk-1.0;m;pcre;gobject-2.0;m;pcre;ffi;m;dl;lzo2;z;m;m;z;freetype;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;expat;m;bz2;z;m;m;m;graphite2;m;pcre;brotlidec;brotlicommon;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;Xau;xcb;Xau;xcb;Xau;xcb;Xau;m;cairo-gobject;m;dl;m;dl;lzo2;z;m;m;z;freetype;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;expat;m;bz2;z;m;m;m;graphite2;m;pcre;brotlidec;brotlicommon;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;Xau;xcb;Xau;xcb;Xau;xcb;Xau;m;glib-2.0;m;pcre;gobject-2.0;m;pcre;ffi;lzo2;z;m;m;z;freetype;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;expat;m;freetype;bz2;z;png16;m;m;z;m;m;pcre;brotlidec;brotlicommon;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;Xau;xcb;Xau;xcb;Xau;xcb;Xau;m;gdk_pixbuf-2.0;m;m;pcre;ffi;m;z;m;z;jpeg;tiff;zstd;lzma;jbig;jpeg;m;m;pcre;gmodule-2.0;glib-2.0;m;pcre;gio-2.0;m;pcre;gobject-2.0;glib-2.0;m;pcre;ffi;gmodule-2.0;m;pcre;blkid;gio-2.0;m;pcre;gobject-2.0;glib-2.0;m;pcre;ffi;glib-2.0;m;pcre;z;blkid;m;pcre;gobject-2.0;m;pcre;ffi;atk-bridge-2.0;systemd;atspi;dbus-1;systemd;glib-2.0;m;pcre;m;pcre;ffi;X11;pthread;xcb;Xau;Xtst;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;Xi;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;Xfixes;X11;pthread;xcb;Xau;atk-1.0;m;pcre;gobject-2.0;m;pcre;ffi;m;pcre;gmodule-2.0;glib-2.0;m;pcre;glib-2.0;m;pcre;gobject-2.0;m;pcre;ffi;wayland-client;m;ffi;xkbcommon;wayland-cursor;m;ffi;wayland-egl;wayland-client;m;ffi;epoxy;dl;pthread;xcb;Xau;GL;EGL;pangoft2-1.0;m;pango-1.0;m;m;pcre;ffi;m;bz2;z;m;m;brotlicommon;graphite2;glib-2.0;m;pcre;m;pcre;gio-2.0;m;pcre;gobject-2.0;glib-2.0;m;pcre;ffi;gmodule-2.0;m;pcre;z;blkid;fribidi;datrie;freetype;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;expat;m;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;Xrender;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;freetype;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;expat;m;bz2;z;m;m;m;graphite2;m;pcre;brotlidec;brotlicommon;m;dl;lzo2;z;m;m;z;freetype;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;expat;m;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;Xau;xcb;Xau;xcb;Xau;xcb;Xau;m;freetype;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;freetype;bz2;z;m;m;m;glib-2.0;m;pcre;brotlidec;brotlicommon;expat;m;m;pcre;gobject-2.0;m;pcre;ffi;m;pcre;gobject-2.0;glib-2.0;m;pcre;ffi;gmodule-2.0;m;pcre;z;blkid;fribidi;thai;datrie;m;bz2;z;m;m;z;brotlicommon;graphite2;m;pcre;Xrender;X11;pthread;xcb;Xau;pthread;xcb;Xau;Xft;X11;pthread;xcb;Xau;pthread;xcb;Xau;freetype;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;expat;m;bz2;z;m;m;m;graphite2;m;pcre;brotlidec;brotlicommon;cairo;m;dl;lzo2;z;m;m;z;fontconfig;freetype;bz2;z;m;m;z;m;graphite2;m;pcre;brotlidec;brotlicommon;expat;m;freetype;bz2;z;m;m;z;m;m;pcre;brotlidec;brotlicommon;X11;pthread;xcb;Xau;Xext;pthread;xcb;Xau;Xrender;X11;pthread;xcb;Xau;X11;pthread;Xau;xcb;Xau;xcb-render;xcb;Xau;xcb-shm;xcb;Xau;Xdmcp;pixman-1;m;harfbuzz-gobject;harfbuzz;m;freetype;bz2;z;png16;m;m;brotlidec;brotlicommon;graphite2;m;pcre;glib-2.0;m;pcre;gobject-2.0;m;pcre;ffi;m;pcre;ffi;gio-2.0;m;pcre;gobject-2.0;glib-2.0;m;pcre;ffi;gmodule-2.0;glib-2.0;m;pcre;z;mount;blkid;sysprof-capture-4"
+		},
+		{
+			"name" : "GTK_STATIC_LIBRARY_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GTK_STATIC_LIBS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GTK_STATIC_LIBS_L",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GTK_STATIC_LIBS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GTK_STATIC_LIBS_PATHS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GTK_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "3.24.34"
+		},
+		{
+			"name" : "GTK_gtk+-3.0_INCLUDEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GTK_gtk+-3.0_LIBDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GTK_gtk+-3.0_PREFIX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GTK_gtk+-3.0_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "PKG_CONFIG_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "pkg-config executable"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/pkg-config"
+		},
+		{
+			"name" : "__pkg_config_arguments_GIO",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "REQUIRED;IMPORTED_TARGET;gio-2.0"
+		},
+		{
+			"name" : "__pkg_config_arguments_GLIB",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "REQUIRED;IMPORTED_TARGET;glib-2.0"
+		},
+		{
+			"name" : "__pkg_config_arguments_GTK",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "REQUIRED;IMPORTED_TARGET;gtk+-3.0"
+		},
+		{
+			"name" : "__pkg_config_checked_GIO",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "__pkg_config_checked_GLIB",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "__pkg_config_checked_GTK",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "pkgcfg_lib_GIO_gio-2.0",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/libgio-2.0.so"
+		},
+		{
+			"name" : "pkgcfg_lib_GIO_glib-2.0",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/libglib-2.0.so"
+		},
+		{
+			"name" : "pkgcfg_lib_GIO_gobject-2.0",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/libgobject-2.0.so"
+		},
+		{
+			"name" : "pkgcfg_lib_GLIB_glib-2.0",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/libglib-2.0.so"
+		},
+		{
+			"name" : "pkgcfg_lib_GTK_atk-1.0",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/libatk-1.0.so"
+		},
+		{
+			"name" : "pkgcfg_lib_GTK_cairo",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/libcairo.so"
+		},
+		{
+			"name" : "pkgcfg_lib_GTK_cairo-gobject",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/libcairo-gobject.so"
+		},
+		{
+			"name" : "pkgcfg_lib_GTK_gdk-3",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/libgdk-3.so"
+		},
+		{
+			"name" : "pkgcfg_lib_GTK_gdk_pixbuf-2.0",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/libgdk_pixbuf-2.0.so"
+		},
+		{
+			"name" : "pkgcfg_lib_GTK_gio-2.0",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/libgio-2.0.so"
+		},
+		{
+			"name" : "pkgcfg_lib_GTK_glib-2.0",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/libglib-2.0.so"
+		},
+		{
+			"name" : "pkgcfg_lib_GTK_gobject-2.0",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/libgobject-2.0.so"
+		},
+		{
+			"name" : "pkgcfg_lib_GTK_gtk-3",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/libgtk-3.so"
+		},
+		{
+			"name" : "pkgcfg_lib_GTK_harfbuzz",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/libharfbuzz.so"
+		},
+		{
+			"name" : "pkgcfg_lib_GTK_pango-1.0",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/libpango-1.0.so"
+		},
+		{
+			"name" : "pkgcfg_lib_GTK_pangocairo-1.0",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/libpangocairo-1.0.so"
+		},
+		{
+			"name" : "pkgcfg_lib_GTK_z",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/libz.so"
+		},
+		{
+			"name" : "prefix_result",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/lib"
+		},
+		{
+			"name" : "runner_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/kingtous/projects/cli_test/linux/cmake-build-debug"
+		},
+		{
+			"name" : "runner_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "runner_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/kingtous/projects/cli_test/linux"
+		}
+	],
+	"kind" : "cache",
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

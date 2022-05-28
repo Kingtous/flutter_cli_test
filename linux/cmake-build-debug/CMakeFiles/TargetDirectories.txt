@@ -1,0 +1,14 @@
+/home/kingtous/projects/cli_test/linux/cmake-build-debug/CMakeFiles/install/strip.dir
+/home/kingtous/projects/cli_test/linux/cmake-build-debug/CMakeFiles/install/local.dir
+/home/kingtous/projects/cli_test/linux/cmake-build-debug/CMakeFiles/cli_test.dir
+/home/kingtous/projects/cli_test/linux/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/kingtous/projects/cli_test/linux/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kingtous/projects/cli_test/linux/cmake-build-debug/CMakeFiles/install.dir
+/home/kingtous/projects/cli_test/linux/cmake-build-debug/CMakeFiles/list_install_components.dir
+/home/kingtous/projects/cli_test/linux/cmake-build-debug/flutter/CMakeFiles/install/strip.dir
+/home/kingtous/projects/cli_test/linux/cmake-build-debug/flutter/CMakeFiles/install/local.dir
+/home/kingtous/projects/cli_test/linux/cmake-build-debug/flutter/CMakeFiles/install.dir
+/home/kingtous/projects/cli_test/linux/cmake-build-debug/flutter/CMakeFiles/list_install_components.dir
+/home/kingtous/projects/cli_test/linux/cmake-build-debug/flutter/CMakeFiles/flutter_assemble.dir
+/home/kingtous/projects/cli_test/linux/cmake-build-debug/flutter/CMakeFiles/edit_cache.dir
+/home/kingtous/projects/cli_test/linux/cmake-build-debug/flutter/CMakeFiles/rebuild_cache.dir
